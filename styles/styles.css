@@ -28,7 +28,7 @@ main {
     height: auto;
     border: 2px solid #333;      
     padding: 5px;                   
-    box-shadow: 2px 2px 8px rgba(0,0,0,0.3); 
+    box-shadow: 2px 2px 8px rgba(46, 45, 45, 0.3); 
   }
   
   
