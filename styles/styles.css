@@ -2,7 +2,37 @@ main {
     width: 80%; 
     margin: 0 auto; 
     margin-left: 0;
+    max-width: 800px;
   }
+
+  nav {
+    background-color: #333; 
+    padding: 10px;
+  }
+  
+  nav a {
+    color: #fff;           
+    padding: 10px;          
+    display: block;         
+    text-decoration: none;  
+  }
+  
+
+  h1 {
+    color: #2c3e50;  
+  }
+
+
+  main img {
+    width: 150px;
+    height: auto;
+    border: 2px solid #333;      
+    padding: 5px;                   
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.3); 
+  }
+  
+  
+  
 
   
   aside {
@@ -17,8 +47,8 @@ main {
 
   aside {
     width: 300px;
-    margin: 20px;      /* Top and Bottom 20px, Right and Left 0px */
-    margin-left: 0;    /* Ensures left alignment */
+    margin: 20px;      
+    margin-left: 0;   
     border: 1px solid #ccc;
     padding: 15px;
     background-color: #f9f9f9;
