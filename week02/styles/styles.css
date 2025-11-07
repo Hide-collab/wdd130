@@ -1,0 +1,46 @@
+main {
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+
+  aside {
+    width: 300px;
+    margin: 20px auto;
+    border: 1px solid #ded7d7;
+    padding: 15px;
+    background-color: #d9e4ee;
+    color: #333232;
+  }
+
+  aside img {
+    width: 200px;
+    height: auto;
+  }
+
+  main img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+ 
+  
+  main img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+  }
+ 
+  
+  p {
+    padding: 0;
+  }
+
+  footer {
+    margin-top: 20px;
+    border-top: 2px solid #ccc;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  
