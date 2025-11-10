@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 main {
     width: 80%; 
     margin: 0 auto; 
@@ -54,6 +60,11 @@ main {
     background-color: #f9f9f9;
     color: #333;
   }
+
+  aside h2{
+    top: 5px;
+
+  }
   
 
   aside img {
@@ -63,8 +74,13 @@ main {
 
 
   main img {
-    width: 200px;
+    width: 150px;
     height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    float: right;
+    margin: 0 0 1rem 1rem;
   }
 
   p{
@@ -79,5 +95,18 @@ main {
     padding-top: 10px;          
   }
   
+
+  /* Class Selector */
+
+  .box{
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 1rem;
+    background-color: #eee;
+    color: #000;
+  }
+
+
+
   
   
