@@ -1,9 +1,10 @@
 :root {
-  --primary-color: #005f73;
-  --accent1-color: #0a9396;
+  --primary-color: #004e63;
+  --accent1-color: #027a80;  
   --heading-font: 'Georgia', serif;
   --body-font: 'Arial', sans-serif;
 }
+
 
 
 * {
@@ -35,6 +36,29 @@ h1, h2 {
   font-family: var(--heading-font);
   color: var(--primary-color);
 }
+
+.hero h1 {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  opacity: 0.9; /* stronger contrast */
+  background-color: var(--accent1-color);
+  color: #fff;
+}
+
+.hero article {
+  position: absolute;
+  bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.95); 
+  color: #004e63; 
+  padding: 16px;
+  border-radius: 8px;
+  width: 80%;
+  left: 10%;
+}
+
 
 nav, p, section, article {
   margin: 16px;
