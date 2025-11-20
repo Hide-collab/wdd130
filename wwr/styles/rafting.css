@@ -11,7 +11,6 @@
   box-sizing: border-box;
 }
 
-
 body {
   font-family: var(--body-font);
   color: var(--accent1-color);
@@ -24,8 +23,6 @@ header {
   padding: 1rem;
 }
 
-
-
 header, main, footer {
   width: 840px;
   margin: 0 auto;
@@ -36,48 +33,18 @@ h1, h2 {
   color: var(--primary-color);
 }
 
-
-
-h1, h2 {
-  font-family: var(--heading-font);
-  color: var(--primary-color);
-}
-
-.hero h1 {
-  position: absolute;
-  top: 20px;
-  width: 100%;
-  padding: 16px;
-  text-align: center;
-  opacity: 0.9; /* stronger contrast */
-  background-color: var(--accent1-color);
-  color: #fff;
-}
-
-.hero article {
-  position: absolute;
-  bottom: 20px;
-  background-color: rgba(255, 255, 255, 0.95); 
-  color: #004e63; 
-  padding: 16px;
-  border-radius: 8px;
-  width: 80%;
-  left: 10%;
-}
-
 nav {
   display: flex;
   gap: 1rem;
   justify-content: flex-end;
 }
 
-
 nav, p, section, article {
   margin: 16px;
   padding: 8px;
 }
 
-/* Hero Section */
+
 .hero {
   position: relative;
 }
@@ -94,7 +61,7 @@ nav, p, section, article {
   width: 100%;
   padding: 16px;
   text-align: center;
-  opacity: 0.7;
+  opacity: 0.9;
   background-color: var(--accent1-color);
   color: #fff;
 }
@@ -102,7 +69,8 @@ nav, p, section, article {
 .hero article {
   position: absolute;
   bottom: 20px;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #004e63;
   padding: 16px;
   border-radius: 8px;
   width: 80%;
@@ -115,26 +83,11 @@ nav, p, section, article {
   margin-left: 8px;
 }
 
-/* Footer */
-.socialmedia a {
-  text-decoration: none;
-}
 
 footer {
   text-align: center;
   font-size: 0.9rem;
   margin-top: 20px;
-}
-
-.history {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
-  align-items: center;
-}
-
-
-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -143,6 +96,18 @@ footer {
 footer .social {
   display: flex;
   gap: 1rem;
+}
+
+.socialmedia a {
+  text-decoration: none;
+}
+
+
+.history {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
 }
 
 
@@ -164,6 +129,6 @@ footer .social {
 }
 
 .adventures h2 {
-  grid-column: 1 / -1; 
+  grid-column: 1 / -1;
   text-align: center;
 }
